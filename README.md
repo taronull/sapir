@@ -1,12 +1,15 @@
-# Sapir
-
-A sensible keyboard layout.
+# Sapir - a sensible keyboard layout
 
 ```
 z l h g q j f o u ` 
 s r n t m y c a e i
 v x b d k w p " : . /
 ```
+
+Sapir is a keyboard layout for comfortable typing. It features
+
+- Extremely low single-finger bigram percentage
+- Ergonomics for fingers, especially for shorter pinkies
 
 ## Layout
 
@@ -20,55 +23,22 @@ x j b z q p c ' ; .
 
 > Edward Sapir and Benjamin Lee Whorf are known for _Sapir–Whorf hypothesis_. Although, they never co-authored any work or call it a hypothesis. The concept describes [linguistic relativity](https://en.wikipedia.org/wiki/Linguistic_relativity) where thoughts are shaped by the language used. 
 
-Whorf is a purely algorithmic layout. It's optimised for shortest path travelled 2-dimensionally. The essence of Whorf is the vowels on the right-hand side. Sapir relocates consonants to add human factors.
+Whorf is a purely algorithmic layout. It's optimised for shortest path travelled 2-dimensionally. The essence of Whorf is the vowels on the right-hand side. Sapir relocates consonants to add human factors. Least used keys are placed on the outer corners. This is especially comfortable for relatively shorter pinkies.
 
-To reproduce Sapir from Whorf:
+## Optional features
 
-1. Cycle `pcygdzfw`.
-2. Cycle `vxj`.
-3. Cycle `qmk`.
-4. Shift and change punctuations.
-
-### Finger strain map
-
-```
-5 2 2 3 4 4 3 2 2 5
-1 1 1 1 3 3 1 1 1 1
-3 3 3 2 4 4 2 3 3 3 
-
-█ ░ ░ ▒ ▓ ▓ ▒ ░ ░ █ 
-        ▒ ▒         
-▒ ▒ ▒ ░ ▓ ▓ ░ ▒ ▒ ▒ 
-```
-
-1. Home key (least strain)
-2. Finger moves 
-3. Hand moves 
-4. Wrist moves
-5. Forearm moves (most strain)
-
-Sapir places least used keys on the outer corners. This is especially comfortable for relatively shorter pinkies.
-
-### Letter frequency
-
-```
-  e t a o i n s r h l d c u m g f p w y b , . 
-v k ' " - x 0 j 1 q 2 z ) ( : ! ? 5 ; 3 4 9 / 
-8 6 7 [ ] % $ | * = _ + > \ < & ^ # @ ` ~ { }
-```
-
-### Shifted punctuations
+### Shifted punctuations and hidden comma
 
 ```
 " : .
 ' ; ,  
 ```
 
-Full/double punctuations are more frequent than their semi/single counterparts in prose and modern programming languages. Sapir presents shifted punctuations as an option.
+Full/double punctuations can be more frequent than their semi/single counterparts. If this is your case, Sapir recommends shifted punctuations. Also, comma is layered on full stop. If you want to separate them, change backtick to comma.
 
-## Layers and the rest
+### Layers 
 
-Sapir includes layers.
+If available, Sapir recommends using layers.
 
 Delimiters and a numpad takes the lower layer. 
 
@@ -99,7 +69,7 @@ As you see, underscore and hyphen are associated with space.
 ^ ⇪ ⌥ ⌘ ▽  ␣  △ ↑ ↓ ← → 
 ```
 
-Backspace and tab are swapped. Caps-lock is moved down for more used keys. Arrow keys are matched by directions and deviates from the Vim default. 
+Caps-lock is moved down for more used keys. Backspace and tab are swapped. Arrow keys are matched by directions and deviates from the Vim default. 
 
 ### ANSI mod
 
@@ -114,8 +84,8 @@ z l h g q j f o u `
 | SFB%    | Common words | Rare words | Other languages |
 | ------- | ------------ | ---------- | --------------- |
 | Semimak | low          | lowest     | low             |
-| Whorf   | lowest       | lower      | low             |
-| Sapir   | lowest       | lower      | low             |
+| Whorf   | lowest       | low        | low             |
+| Sapir   | lowest       | low        | low             |
 
 ### Benchmark
 
