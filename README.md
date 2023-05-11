@@ -25,16 +25,18 @@ x j b z q p c ' ; .
 
 Whorf is a purely algorithmic layout. It's optimised for shortest path travelled 2-dimensionally. The essence of Whorf is the vowels on the right-hand side. Sapir relocates consonants to add human factors. Least used keys are placed on the outer corners. This is especially comfortable for relatively shorter pinkies.
 
-## Optional features
+## Options
 
-### Shifted punctuations and hidden comma
+### Shifted punctuations & Hidden comma
 
 ```
 " : .
 ' ; ,  
 ```
 
-Full/double punctuations can be more frequent than their semi/single counterparts. If this is your case, Sapir recommends shifted punctuations. Also, comma is layered on full stop. If you want to separate them, change backtick to comma.
+Full/double punctuations can be more frequent than their semi/single counterparts. If this is your case, Sapir recommends shifted punctuations. 
+
+Comma is layered on full stop. If you want separate comma key, you can change backtick to comma like Whorf.
 
 ### Layers 
 
@@ -43,9 +45,9 @@ If available, Sapir recommends using layers.
 Delimiters and a numpad takes the lower layer. 
 
 ```
-  { } <   - 7 8 9 /
+  [ ] <   - 7 8 9 /
 | ( ) =   + 4 5 6 *
-  [ ] >   0 1 2 3 . 
+  { } >   0 1 2 3 . 
          _
 ```
 
